@@ -29,8 +29,8 @@ This means, you need:
 2. Copy both PDFs to the script's directory: `cp /path/to/PDF1.pdf /path/to/PDF2.pdf .`
    Make sure neither of the files you want to compare is called `output.pdf`.
 3. Run `docker-compose`:
-   * If your user account is a member of the `docker` group: `docker-compose run pdfcompare2docker PDF1.pdf PDF2.pdf`
-   * If your user account is not a member of the `docker` group: `sudo docker-compose run pdfcompare2docker PDF1.pdf PDF2.pdf`
+   * If your user account is a member of the `docker` group: `docker-compose run pdfcompare PDF1.pdf PDF2.pdf`
+   * If your user account is not a member of the `docker` group: `sudo docker-compose run pdfcompare PDF1.pdf PDF2.pdf`
 
 (Other options of the script are explained by the tool itself, using `--help`.)
 

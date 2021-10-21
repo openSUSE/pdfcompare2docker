@@ -13,7 +13,7 @@ WITH THIS ONE WEIRD TRICK!
 
 ### First-Run Prerequisites
 
-On the first run, Docker or Podman needs to download a container with an installation of `pdfcompare` on openSUSE Leap 15.1.
+On the first run, Docker needs to download a container with an installation of `pdfcompare` on openSUSE Leap 15.1.
 
 This means, you need:
 

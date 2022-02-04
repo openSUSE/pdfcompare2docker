@@ -8,7 +8,7 @@ WITH THIS ONE WEIRD TRICK!
 1. Install Docker and docker-compose on your distribution.
    *  OpenSUSE/SLES: `sudo zypper install docker python3-docker-compose`
 
-2. Clone this repository: `git clone https://github.com/sknorr/pdfcompare2docker`
+2. Clone this repository: `git clone https://github.com/openSUSE/pdfcompare2docker`
 
 
 ### First-Run Prerequisites

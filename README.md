@@ -27,7 +27,7 @@ This means, you need:
 
 1. In a terminal, go to the cloned directory.
 2. Copy both PDFs to the cloned directory: `cp /path/to/PDF1.pdf /path/to/PDF2.pdf .`
-   Make sure neither of the files you want to compare is called `output.pdf`.
+   Make sure none of the files you want to compare is called `output.pdf`.
 3. Run `docker-compose`:
    * If your user account is a member of the `docker` group: `docker-compose run pdfcompare PDF1.pdf PDF2.pdf`
    * If your user account is not a member of the `docker` group: `sudo docker-compose run pdfcompare PDF1.pdf PDF2.pdf`

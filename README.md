@@ -34,6 +34,8 @@ This means, you need:
 
 (Other options of the script are explained by the tool itself, using `docker-compose run pdfcompare --help`.)
 
+NOTE: If one of the PDFs you want to diff has an appended `.old` or a date like `-20220209` (for example, `MyBook.pdf-20220209`) this causes `pdfcompare` to mark all content as changed. Make sure the PDFs to compare end in `.pdf` only.    
+
 ## References
 
 * For the container image itself, see [Docker Hub](https://hub.docker.com/r/susedoc/pdfcompare).
